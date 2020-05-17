@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { ApolloProvider } from '@apollo/react-hooks';
 import { apolloClient } from './plugins/apolloPlugin'
 
+import './index.scss'
+
 import { Home } from './pages/home'
 
 ReactDOM.render(
